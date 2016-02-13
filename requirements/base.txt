@@ -1,0 +1,6 @@
+Django==1.8.9
+django-filter==0.12.0
+django-grappelli==2.7.3
+django-import-export==0.4.2
+django-pipeline==1.5.4
+Unipath==1.1
