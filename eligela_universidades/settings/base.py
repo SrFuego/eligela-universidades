@@ -19,8 +19,8 @@ BASE_DIR = Path(__file__).ancestor(3)
 # Application definition
 
 DJANGO_APPS = (
+    # 'grappelli',
     # Admin third party app, but need put before 'django.contrib.admin'
-    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

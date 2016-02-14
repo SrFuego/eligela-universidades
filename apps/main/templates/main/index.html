@@ -2,9 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ app_name }} index page</title>
+    <title>Carreras</title>
   </head>
   <body>
-    <h1>{{ app_name }} index page</h1>
+    <h1>Carreras Eligela</h1>
+    <form action="" method="GET">
+      {{ filter.form.as_p }}
+      <input type="submit" />
+    </form>
+
+    {% for obj in filter %}
+      <p>{{ obj.nombre }} -- {{ obj.costo_anual}}</p>
+    {% endfor %}
   </body>
 </html>
